@@ -1,0 +1,213 @@
+/* Tablet Styles */
+@media only screen and (min-width: 770px) and (max-width: 1228.80px) {
+    .nav-btn{
+        display:block;
+    }
+    nav{
+        display: none;
+    }
+    .nav-btn div{
+        background-color: black;
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
+    }
+    .nav-btn div div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-btn div div img{
+        width:20px;
+    }
+    #close{
+        display: none;
+    }
+
+
+    /*NAV2*/
+    .nav2{
+        align-items: center;
+        justify-content: center;
+    }
+    .nav2 a:hover{
+        background-color: #ef402d;
+        color:#fff;
+    }
+    .user{
+        flex-shrink: 1;
+        display: flex;
+        align-items: center;
+    }
+    .top{
+        grid-area: top;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav2{
+        margin:0 10px;
+    }
+    .nav2 a{
+        margin: 0;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color:black;
+        padding:8px 10px;
+        border-radius: 5px;
+    }
+    .user a{
+        margin: 0;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color:black;
+        padding:8px 10px;
+        border-radius: 5px;
+    }
+    .user .login:hover{
+        background-color: #20b328;
+        color:#fff;
+    }
+    .user .register:hover{
+        background-color: #4285f4;
+        color:#fff;
+    }
+    .sell-btn{
+        padding:0 20px;
+        margin: 0 10px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        background-color: #ef402d;
+        border-radius: 30px;
+        border: none;
+        height: 30px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+    .sub-nav{
+    }
+    
+    .sub-nav-1{
+        display: none;
+    }
+    .nav2 .sub1:hover .sub-nav-1{
+        list-style-type: none;
+        border-radius: 3px;
+        border: solid 1px;
+        border-color: #ef402d;
+        display: block;
+        position:absolute;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    .nav2 .sub1:hover .sub-nav-1 div{
+        padding:10px 0;
+    }
+    .sub-nav-2{
+        display: none;
+    }
+    .nav2 .sub2:hover .sub-nav-2{
+        list-style-type: none;
+        border-radius: 3px;
+        border: solid 1px;
+        border-color: #ef402d;
+        display: block;
+        position:absolute;
+        margin-top: 5px;
+        margin-left: 0;
+        
+    }
+    .nav2 .sub2:hover .sub-nav-2 div{
+        padding:10px 0;
+    }
+    .sub-nav-3{
+        display: none;
+    }
+    .nav2 .sub3:hover .sub-nav-3{
+        list-style-type: none;
+        border-radius: 3px;
+        border: solid 1px;
+        border-color: #ef402d;
+        display: block;
+        position:absolute;
+        margin-top: 5px;
+        margin-left: 0;
+        
+    }
+    .nav2 .sub3:hover .sub-nav-3 div{
+        padding:10px 0;
+    }
+    .main-in select{
+        background-color: #fff;
+    }
+    .tog{
+        display: block;
+    }
+    /*far new nav*/
+    .nav-btn-2{
+        display: block;
+        margin-left: 5px;
+    }
+    .nav-btn-2 div{
+        background-color: black;
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
+    }
+    .nav-btn-2 div div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-btn-2 div div img{
+        width:20px;
+    }
+    #close{
+        display: none;
+    }
+    .nav3 ul{
+        font-family: 'poppins';
+    }
+    .nav3 ul li a{
+        color: black;
+    }
+    .nav3 ul{
+        width: 100%;
+        list-style-type: none;
+        margin-right: 5%;
+    }
+    .nav3 ul li span{
+        margin-left: 3px;
+    }
+    .nav3 ul li{
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        padding: 3px;
+        border: 3px #df504e;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .nav3 ul li a{
+        margin-left: 3px;
+    }
+    .nav3 ul li a:hover{
+        color:#fff;
+    }
+    .nav3 ul li:hover{
+        border-radius: 3px;
+        background-color:#df504e;
+        color:#fff;
+    }
+    .sub{
+        display: none;
+    }
+    .tog{
+        display: block;
+    }
+    .nav-btn-2{
+        display: none;
+    }
+  }

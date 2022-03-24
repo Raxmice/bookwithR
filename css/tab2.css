@@ -1,0 +1,118 @@
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 769px) {
+   
+    .user-login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .login{
+        display:none;
+    }
+    .register{
+        display:none;
+    }
+    .nav{
+        display: none;
+    }
+    .close2{
+        display:none;
+    }
+    .nav-btn-2{
+        display: block;
+        margin-left: 5px;
+    }
+    .nav-btn-2 div{
+        background-color: black;
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
+    }
+    .nav-btn-2 div div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-btn-2 div div img{
+        width:20px;
+    }
+    #close{
+        display: none;
+    }
+    .nav3 ul{
+        font-family: 'poppins';
+    }
+    .nav3 ul li a{
+        color: black;
+    }
+    .nav3 ul{
+        list-style-type: none;
+        margin-right: 5%;
+    }
+    .nav3 ul li{
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        padding: 3px;
+        border: 3px #df504e;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .nav3 ul li a{
+        margin-left: 3px;
+    }
+    .nav3 ul li a:hover{
+        color:#fff;
+    }
+    .nav3 ul li:hover{
+        border-radius: 3px;
+        background-color:#df504e;
+        color:#fff;
+    }
+    .sub{
+        display: none;
+    }
+    .tog{
+        display: block;
+    }
+    /**/
+    .main-in{
+        margin: 0 10%;
+        display:grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        padding:30px;
+        width: auto;
+        height: auto;
+    }
+    .sell{
+        margin-bottom: 50px;
+    }
+    
+    .footer{
+        padding:30px 50px 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .nav3 ul li span{
+        margin-left: 3px;
+    }
+    .search div label{
+        font-size: 5;
+    }
+    footer .logo-part img{
+        width: 150px;
+    }
+    .main-in select{
+        background-color: #fff;
+    }
+    .tog{
+        display: block;
+    }
+
+}
