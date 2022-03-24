@@ -179,6 +179,7 @@
     }
     .nav3 ul li span{
         margin-left: 3px;
+        margin-right:10%;
     }
     .nav3 ul li{
         cursor: pointer;
