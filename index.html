@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/tab2.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Booksflow - home</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo-t.png">
+</head>
+<body>
+    <header>
+        <div class="top">
+        <div class="links">
+        <a href=""index.html><img class="logo" src="img/logo.png" alt="logo"></a>
+        <nav class="nav">
+            <a href="index.html">HOME</a>
+            <span class="sub1" ><a href="">USED BOOKS ON SALE &#9660</a>
+                <div class="sub-nav-1 sub-nav">
+                    <div><a href="">ENGINEERING BOOKS</a></div>
+                    <div><a href="">SCHOOL BOOKS</a></div>
+                    <div><a href="">MAGAZINES</a></div>
+                    <div><a href="">MEDICAL</a></div>
+                </div></span>
+           <span class="sub2"> <a href="">COMPETITVE EXAM BOOKS &#9660</a>
+                <div class="sub-nav-2 sub-nav">
+                    <div><a href="">CAT/GRE/GATE BOOKS</a></div>
+                    <div><a href="">ENGINEERING EXAM BOOKS</a></div>
+                    <div><a href="">NEET/AIIMS BOOKS</a></div>
+                    <div><a href="">UPSC BOOKS</a></div>
+                </div></span>
+            <span class="sub3"><a href="">NOVELS &#9660</a>
+                <div class="sub-nav-3 sub-nav">
+                    <div><a href="">FICTION</a></div>
+                    <div><a href="">NON-FICTION</a></div>
+                </div></span>
+            <a href="">BOOK REVIEWS</a>
+        </nav>
+        </div>
+        <div class="user">
+            <a class="user-login" href="#login.html"><img src="img/user.svg" alt="user"></a>
+            <a class="login" href="">LOGIN</a>
+            <a class="register" href="">REGISTER</a>
+            <BUTTON id="sell" class="sell-btn"><img src="img/add.svg" alt="add"> SELL BOOKS</BUTTON>
+            <div class="nav-btn">
+                <div class="menu" id="menu" onclick="document.getElementById('menu').style.display = 'none';document.getElementById('close').style.display = 'block';document.getElementById('nav2').style.display = 'flex'"><div><img src="img/menu.svg" alt="menu"></div></div>
+                <div class="close" id="close" onclick="document.getElementById('close').style.display = 'none';document.getElementById('menu').style.display = 'block';document.getElementById('nav2').style.display = 'none'"><div><img src="img/close.svg" alt="close"></div></div>
+            </div>
+            <div class="nav-btn-2">
+                <div class="menu2" id="menu2" onclick="document.getElementById('menu2').style.display = 'none';document.getElementById('close2').style.display = 'block';document.getElementById('nav3').style.display = 'block'"><div><img src="img/menu.svg" alt="menu2"></div></div>
+                <div class="close2" id="close2" onclick="document.getElementById('close2').style.display = 'none';document.getElementById('menu2').style.display = 'block';document.getElementById('nav3').style.display = 'none'"><div><img src="img/close.svg" alt="close2"></div></div>
+            </div>
+        </div>
+        </div>
+        <!--this is for nav2-->
+        <div class="nav2" id="nav2">
+            <a href="index.html">HOME</a>
+            <span class="sub1" ><a href="">USED BOOKS ON SALE &#9660</a>
+                <div class="sub-nav-1 sub-nav">
+                    <div><a href="">ENGINEERING BOOKS</a></div>
+                    <div><a href="">SCHOOL BOOKS</a></div>
+                    <div><a href="">MAGAZINES</a></div>
+                    <div><a href="">MEDICAL</a></div>
+                </div></span>
+           <span class="sub2"> <a href="">COMPETITVE EXAM BOOKS &#9660</a>
+                <div class="sub-nav-2 sub-nav">
+                    <div><a href="">CAT/GRE/GATE BOOKS</a></div>
+                    <div><a href="">ENGINEERING EXAM BOOKS</a></div>
+                    <div><a href="">NEET/AIIMS BOOKS</a></div>
+                    <div><a href="">UPSC BOOKS</a></div>
+                </div></span>
+            <span class="sub3"><a href="">NOVELS &#9660</a>
+                <div class="sub-nav-3 sub-nav">
+                    <div><a href="">FICTION</a></div>
+                    <div><a href="">NON-FICTION</a></div>
+                </div></span>
+            <a href="">BOOK REVIEWS</a>
+        </div>
+        <div id="nav3" class="nav3">
+             <ul>
+                 <li><a href="">HOME</a></li>
+                 <li class="ul1" id="ul1" onclick="ul1()"><span>USED BOOKS ON SALE</span><span>&#9660</span></li>
+                    <ul class="sub-1 sub" id="sub-1">
+                        <li><a href="">ENGINEERING BOOKS</a></li>
+                        <li><a href="">SCHOL BOOKS</a></li>
+                        <li><a href="">MAGAZINES</a></li>
+                        <li><a href="">MEDICAL</a></li>
+                    </ul>
+                 <li class="ul2" id="ul2" onclick="ul2()"><span>COMPETITIVE EXAM BOOKS</span><span>&#9660</span></li>
+                 <ul class="sub-2 sub" id="sub-2">
+                    <li><a href="">CAT/GRE/GATE BOOKS</a></li>
+                    <li><a href="">ENGINEERING EXAM BOOKS</a></li>
+                    <li><a href="">NEET/AIIMS BOOKS</a></li>
+                    <li><a href="">UPSC BOOKS</a></li>
+                </ul>
+                 <li class="ul3" id="ul3" onclick="ul3()"><span>NOVELS</span><span>&#9660</span></li>
+                 <ul class="sub-3 sub" id="sub-3">
+                    <li><a href="">FICTION</a></li>
+                    <li><a href="">NON-FICTION BOOKS</a></li>
+                </ul>
+                 <li><a href="">BOOKS PREVIEWS</a></li>
+             </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main-in">
+            <div class="sell">
+                <div>
+                <h1>7636 Used Books on sale</h1>
+                <div class="hr-sub"></div>
+                <h4>Buy And Sell Used Books In India. Search And Buy Second Hand Books Bear You. Post Free Ad To Sell Old Books In City. Download the app now.</h4>
+                <button class="sell-used-books">SELL USED BOOKS</button>
+            </div></div>
+            <div class="search"><div>
+                <div><label for="text-look">Title</label></div>
+                <div><input class="search-form" type="text" placeholder="What Are You Looking For..."></div>
+                <div><label for="category">Select Category</label></div>
+                <div><select name="select-category" id="select-category">
+                    <option value="">Select Category</option>
+                    <option value="Accountancy">Accountancy</option>
+                    <option value="Arts">Arts</option>
+                    <option value="Automobiles">Automobiles</option>
+                    <option value="boollywood/hollywood">Boollywood/Hollywood</option>
+                    <option value="Business & Low">Business & low</option>
+                    <option value="Business Management">Business Management</option>
+                </select></div>
+                <div><label for="location">Location</label></div>
+                <div><input class="search-form" type="text" placeholder="Location..."></div>
+                <button class="search-btn">SEARCH</button>
+            </div></div>
+        </div>
+    </main>
+    <aside>
+
+    </aside>
+    <section></section>
+    <footer>
+        <div class="footer">
+        <div class="logo-part">
+            <img src="img/logo.png" alt="logo">
+            <p>Best Recycle is Book Recycle. Keep Your Books Flowing.</p>
+        </div>
+        <div class="books-sell">
+            <h4>Sell Old Books Online</h4>
+            <p>BookFlow is customer to customer platform like Olx for books. Sell and buy old books in India at zero commission. Click 'need help' for 24x7 customer care on WhatsApp.</p>
+        </div>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="social">
+            <div><a><img src="img/fb.svg" alt="facebook">Facebook</a></div>
+            <div><a><img src="img/insta.svg" alt="instagram">Instagram</a></div>
+            <div><a><img src="img/twitter.svg" alt="twitter">Twitter</a></div>
+        </div></div>
+        <div class="quick-links">
+            <h4>Quick Links</h4>
+            <div><a href="">About</a></div>
+            <div><a href="">Terms and Conditions</a></div>
+            <div><a href="">Privacy Policy</a></div>
+            <div><a href="">Safety Tips</a></div>
+            <div><a href="">Buy Ssecond Hand Books Online In India</a></div>
+        </div>
+        </div>
+        <hr>
+        <div class="copy">Copyright 2016-22 © <span style="color:red;">BookFlow</span> All Rights Reserved</div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>
